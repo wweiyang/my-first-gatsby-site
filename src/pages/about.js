@@ -2,12 +2,17 @@
 import * as React from "react";
 import { Link } from "gatsby";
 import Layout from "../components/layout";
+import { StaticImage } from "gatsby-plugin-image";
 
 // Step 2: Define your component
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <p>Hi there! Ice cream makes the world go round.</p>
+      <p>Hi there! Cat loafs are a natural wonder.</p>
+      <StaticImage
+        src="../images/cat.jpg"
+        alt="a cat loaf viewed from the top"
+      />
     </Layout>
   );
 };
