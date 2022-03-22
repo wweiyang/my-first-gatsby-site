@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image";
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <p>Hi there! Cat loafs are a natural wonder.</p>
+      <p>Hi there! Here is a catloaf.</p>
       <StaticImage
         src="../images/cat.jpg"
         alt="a cat loaf viewed from the top"
